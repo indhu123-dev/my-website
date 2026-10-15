@@ -1,0 +1,26 @@
+html{
+            
+                font-size:20px;
+            }  
+            /* body{
+                background-color:#333;
+                color:whitesmoke;
+
+            } */
+            a{
+                color:#eeeeee(240, 255, 240);/*all anchor elements colour aliceblue*/
+
+
+            }
+            a:visited{
+                color:#eeeeee(211, 211, 211);/* if a link is visite once then colour of that link*/
+            }
+            a:hover,a:active{
+                color:#eeeeee;/* when we point arrow on it but not click hover  when we click it activated active*/
+            }
+            table,tr,th,td,caption{/* entire tablle with table row ,heading,data,title*/
+                border:2px solid black;/*border of table*/
+                font-family:'Courier New', Courier, monospace;/* type of font characters typically have equal width*/
+                border-collapse:collapse;/* proper ensuring of borders of rows and columns*/
+                padding:0.5rem;/* space between content and its border*/
+            }
